@@ -30,5 +30,5 @@
 ## 📢更新方法
    * 点击`Settings`-->`Options`-->`Dangerous Zone`-->`delete this reposity`，按照提示删除本项目，然后重新部署。
    * 使用git，相关命令请自行搜索。
-   更新
+   
 
