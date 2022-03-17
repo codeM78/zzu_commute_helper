@@ -17,7 +17,7 @@ ptopid="${udata%&*}"
 sid="${udata#*&sid=}" #登录获取ptopid和sid
 curl -d "day6=b&did=1&men6=a" -d "ptopid=$ptopid&sid=$sid" -s $url2 -o /dev/null #进入确认界面
 # curl -d "@myvs.txt" -d "jingdu=113.658333&weidu=34.783333&ptopid=$ptopid&sid=$sid" -s $url2 -o temp.txt #获取经纬度并打卡
-curl -d "@myvs.txt" -d "jingdu=113.658055&weidu=34.782166&ptopid=$ptopid&sid=$sid" -s $url2 -o temp.txt #获取经纬度并打卡
+curl -d "@myvs.txt" -d "jingdu=113.658055&weidu=34.782567&ptopid=$ptopid&sid=$sid" -s $url2 -o temp.txt #获取经纬度并打卡
 udata=$(sed -n '24p' temp.txt)
 echo "$udata"
 done
